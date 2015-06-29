@@ -1,4 +1,4 @@
-# -*- mode: cmake;
+# -*- mode: cmake; coding: utf-8-unix; tab-width: 4; -*-
 cmake_minimum_required(VERSION 2.8)
 
 set(TARGET_NAME OSXCMakeAppGL)
@@ -44,3 +44,7 @@ set(MACOSX_BUNDLE_NSMAIN_NIB_FILE "")
 set(MACOSX_BUNDLE_NSPRINCIPAL_CLASS "NSApplication")
 
 set_target_properties(${TARGET_NAME} PROPERTIES MACOSX_BUNDLE_INFO_PLIST Info-CMake.plist)
+
+#===
+# EOF
+#===
